@@ -2,7 +2,7 @@
 
 The user can set the countdown clock.
 
-Live version: https://countdown-clock.herokuapp.com
+Live version: https://countdown-counter.herokuapp.com
 
 <img src="./src/graphics/screencast.gif" width="275px" height="auto">
 
