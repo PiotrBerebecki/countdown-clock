@@ -6,13 +6,25 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="shortcut icon" href="./assets/favicon/favicon.ico">
-  <title>JavaScript</title>
+  <title>Coundtown Counter</title>
 </head>
 <body>
 
-  <div class="hero">
-    <h1>JavaScript</h1>
-  </div>
+  <div class="timer">
+    <div class="timer__controls">
+      <button data-time="300" class="timer__button">Work<br/>5</button>
+      <button data-time="900" class="timer__button">Quick<br/>15</button>
+      <button data-time="1200" class="timer__button">Snack<br/>20</button>
+      <button data-time="3600" class="timer__button">Lunch<br/>60</button>
+      <form name="customForm" id="custom">
+        <input type="number" name="minutes" min="1" placeholder="Minutes">
+      </form>
+    </div>
+    <div class="display">
+      <h1 class="display__time-left"></h1>
+      <p class="display__end-time"></p>
+    </div>
+
 
   <script src="./assets/js/app.js"></script>
 </body>

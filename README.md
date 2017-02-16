@@ -1,8 +1,8 @@
-# Vanilla JavaScript App Boilerplate
+# Countdown Clock
 
-App demonstrating ...
+The user can set the countdown clock.
 
-Live version: https://REPO.herokuapp.com
+Live version: https://countdown-clock.herokuapp.com
 
 <img src="./src/graphics/screencast.gif" width="275px" height="auto">
 
@@ -10,6 +10,7 @@ Live version: https://REPO.herokuapp.com
 * Node
 * Express
 * Heroku
+* Browsersync
 * Vanilla JavaScript
 * ES6
 * Flexbox
@@ -17,8 +18,8 @@ Live version: https://REPO.herokuapp.com
 ## Getting started
 
 ```sh
-git clone https://github.com/PiotrBerebecki/REPO.git
-cd REPO
+git clone https://github.com/PiotrBerebecki/countdown-clock.git
+cd countdown-clock
 npm install
 
 #1. Start the development server with Browsersync reloading
